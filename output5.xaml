@@ -1,0 +1,52 @@
+<schedule>
+    <day>
+        <date text = '5 ноября'/>
+        <dayOfWeek text = 'вторник'/>
+        <class>
+            <time text = '10:00 - 11:30'/>
+            <type text = 'Лекция'/>
+            <subject text = 'Линейная алгебра'/>
+            <teacher text = 'Рванова Алла'/>
+            <location text = 'ауд. 2426, Кронверкский пр., д.49, лит.А'/>
+        </class>
+        <class>
+            <time text = '11:40 - 13:10'/>
+            <type text = 'Практическое занятие'/>
+            <subject text = 'Линейная алгебра'/>
+            <teacher text = 'Рванова Алла'/>
+            <location text = 'ауд. 2430, Кронверкский пр., д.49, лит.А'/>
+        </class>
+        <class>
+            <time text = '15:20 - 16:50'/>
+            <type text = 'Практическое занятие'/>
+            <subject text = 'Английский язык B1.2'/>
+            <teacher text = 'Морозова Анна Михайловна'/>
+            <location text = 'ауд. 3307, ул. Ломоносова, д.9, лит. Е'/>
+        </class>
+        <class>
+            <time text = '17:00 - 18:30'/>
+            <type text = 'Практическое занятие'/>
+            <subject text = 'Английский язык B1.2'/>
+            <teacher text = 'Морозова Анна Михайловна'/>
+            <location text = 'ауд. 3307, ул. Ломоносова, д.9, лит. Е'/>
+        </class>
+    </day>
+    <day>
+        <date text = '14 ноября'/>
+        <dayOfWeek text = 'четверг'/>
+        <class>
+            <time text = '10:00 - 11:30'/>
+            <type text = 'Практическое занятие'/>
+            <subject text = 'История русской культуры в контексте мировой культуры'/>
+            <teacher text = 'Щеглова Иванна Павловна'/>
+            <location text = 'ауд. 2412, Кронверкский пр., д.49, лит.А'/>
+        </class>
+        <class>
+            <time text = '11:40 - 13:10'/>
+            <type text = 'Лекция'/>
+            <subject text = 'История русской культуры в контексте мировой культуры'/>
+            <teacher text = 'Жиркова Галина Петровна'/>
+            <location text = 'ауд. 1404, Кронверкский пр., д.49, лит.А'/>
+        </class>
+    </day>
+</schedule>

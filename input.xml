@@ -1,0 +1,52 @@
+<schedule>
+    <day>
+        <date>5 ноября</date>
+        <dayOfWeek>вторник</dayOfWeek>
+        <class>
+            <time>10:00 - 11:30</time>
+            <type>Лекция</type>
+            <subject>Линейная алгебра</subject>
+            <teacher>Рванова Алла</teacher>
+            <location>ауд. 2426, Кронверкский пр., д.49, лит.А</location>
+        </class>
+        <class>
+            <time>11:40 - 13:10</time>
+            <type>Практическое занятие</type>
+            <subject>Линейная алгебра</subject>
+            <teacher>Рванова Алла</teacher>
+            <location>ауд. 2430, Кронверкский пр., д.49, лит.А</location>
+        </class>
+        <class>
+            <time>15:20 - 16:50</time>
+            <type>Практическое занятие</type>
+            <subject>Английский язык B1.2</subject>
+            <teacher>Морозова Анна Михайловна</teacher>
+            <location>ауд. 3307, ул. Ломоносова, д.9, лит. Е</location>
+        </class>
+        <class>
+            <time>17:00 - 18:30</time>
+            <type>Практическое занятие</type>
+            <subject>Английский язык B1.2</subject>
+            <teacher>Морозова Анна Михайловна</teacher>
+            <location>ауд. 3307, ул. Ломоносова, д.9, лит. Е</location>
+        </class>
+    </day>
+    <day>
+        <date>14 ноября</date>
+        <dayOfWeek>четверг</dayOfWeek>
+        <class>
+            <time>10:00 - 11:30</time>
+            <type>Практическое занятие</type>
+            <subject>История русской культуры в контексте мировой культуры</subject>
+            <teacher>Щеглова Иванна Павловна</teacher>
+            <location>ауд. 2412, Кронверкский пр., д.49, лит.А</location>
+        </class>
+        <class>
+            <time>11:40 - 13:10</time>
+            <type>Лекция</type>
+            <subject>История русской культуры в контексте мировой культуры</subject>
+            <teacher>Жиркова Галина Петровна</teacher>
+            <location>ауд. 1404, Кронверкский пр., д.49, лит.А</location>
+        </class>
+    </day>
+</schedule>

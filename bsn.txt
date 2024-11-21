@@ -1,0 +1,34 @@
+//xml
+<xml> ::= <head_tag><content><tail_tag> | <single_tag>
+<content> ::= <text> | <nested_tags>
+<nested_tags> ::= <head_tag><content><tail_tag> | <nested_tags><head_tag><content><tail_tag>
+<head_tag> ::= "<" <word> <attributes_optional> ">"
+<tail_tag> ::= "</" <word> ">"
+<single_tag> ::= "<" <word> <attributes_optional> "/>"
+<attributes_optional> ::= <attributes> | "" 
+<attributes> ::= <attribute> | <attribute> <attributes>
+<attribute> ::= <word> "=" '"' <text> '"'
+<text> ::= <any_symbol> | <text><any_symbol>
+<word> ::= <symbol> | <word><symbol>
+<symbol> ::= <numeric> | <letter> | "_"
+<numeric> ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+<letter> ::= "A" | "B" | ... | "Z" | "a" | "b" | ... | "z"
+<any_symbol> ::= <symbol> | "." | "!" | "?" | ... // любые символы, разрешенные в XML
+
+
+//yaml
+<yaml> ::= <element> | <element><newline><yaml>
+<element> ::= <key_value> | <list_item> | <block>
+<key_value> ::= <key> ":" <value_optional>
+<value_optional> ::= <value> | ""
+<key> ::= <text>
+<value> ::= <text> | <block> | <list>
+<block> ::= <newline><indentation><yaml><dedentation>
+<list> ::= <list_item> | <list_item><newline><list>
+<list_item> ::= "-" <value_optional>
+<text> ::= <char> | <text><char>
+<newline> ::= "\n"
+<indentation> ::= "  " | <indentation>"  "
+<dedentation> ::= ""  // Возврат к меньшему уровню отступа
+<char> ::= <symbol> | " " | ...
+<symbol> ::= <letter> | <digit> | "-" | "_" | ...
